@@ -1,0 +1,35 @@
+Step 1 - Install package.json
+            npm init -y
+
+Step 2 - Install node modules
+            npm i json-server
+
+Step 3 - Create git ignore
+            .gitignore
+
+Step 4 - Add node modules in git ignore 
+
+Step 5 - Change script from package.json
+            "start":"node index.js"
+
+Step 6 - create file ie, index.js
+
+Step 7 - Require is used in back-end to import a json server
+            Store it in a variable and assign argument in single quotes
+
+Step 8 - Create a server using json server. After creating server assign it in a variable using jsonserver ------ .create()
+
+Step 9 - Create middle ware using jsonserver as defaults (ie, use it seperately) ----- .defaults()
+
+Step 10 - Create a port for the server ie, port should run in 4000 port id (back-end will not run from the front-end port id )
+            const PORT=process.env.PORT || 4000  (ie, with this url data is passed)
+
+Step 11 - Use middle ware in server
+            server.use(middleware)
+
+Step 12 - To use port in server
+
+Step 10 - Create a json file and then create an array. Inside an array create an object
+
+
+
